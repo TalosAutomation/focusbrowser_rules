@@ -18,12 +18,12 @@
   "textFilterPatterns": [
     "\\bSuggested\\s*post(s)?\\b",
     "\\bSuggested\\s*for\\s*you\\b",
-    "\\bSponsored\\b",
     "Suggested post"
   ],
   "adPatterns": [
     "\\bSponsored\\b",
     "\\bPaid partnership\\b",
+    "\\bPromoted\\b",
     "Ad"
   ],
   "disableAutoplay": true,
@@ -37,4 +37,3 @@
     "a[href*='/reel/'] img"
   ]
 }
-
