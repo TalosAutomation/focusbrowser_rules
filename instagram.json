@@ -1,0 +1,31 @@
+{
+    "domain": "instagram.com",
+    "blockedRoutes": [
+        "/reels",
+        "/explore",
+        "/reels/",
+        "/explore/"
+    ],
+    "hideSelectors": [
+        "a[href='/reels/']",
+        "a[href='/explore/']",
+        "a[href*='/reels']",
+        "a[href*='/explore']",
+        "[aria-label='Reels']",
+        "[aria-label='Explore']",
+        "div[class*='_aang']",
+        "div[class*='SuggestedUser']",
+        "article div[class*='_ab8w']",
+        "div[class*='_aaum']"
+    ],
+    "disableAutoplay": true,
+    "delayOpenMs": 3000,
+    "grayscale": false,
+    "blurThumbnails": false,
+    "blurSelectors": [
+        "article img",
+        "article video",
+        "div[role='button'] img",
+        "a[href*='/reel/'] img"
+    ]
+}

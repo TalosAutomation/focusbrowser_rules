@@ -1,0 +1,25 @@
+{
+    "domain": "x.com",
+    "blockedRoutes": [
+        "/explore",
+        "/i/trends"
+    ],
+    "hideSelectors": [
+        "a[href='/explore']",
+        "a[href*='/i/trends']",
+        "div[data-testid='trend']",
+        "aside[aria-label='Who to follow']",
+        "div[data-testid='sidebarColumn'] section",
+        "a[href*='/explore/tabs/']",
+        "div[aria-label='Timeline: Trending now']",
+        "div[data-testid='placementTracking']"
+    ],
+    "disableAutoplay": true,
+    "delayOpenMs": 2000,
+    "grayscale": false,
+    "blurThumbnails": false,
+    "blurSelectors": [
+        "div[data-testid='tweetPhoto'] img",
+        "video"
+    ]
+}

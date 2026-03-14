@@ -1,0 +1,33 @@
+{
+    "domain": "facebook.com",
+    "blockedRoutes": [
+        "/watch",
+        "/reel",
+        "/reels",
+        "/gaming",
+        "/marketplace"
+    ],
+    "hideSelectors": [
+        "a[href*='/watch']",
+        "a[href*='/reel/']",
+        "a[href*='/reels']",
+        "a[href*='/gaming']",
+        "div[data-pagelet='RightRail']",
+        "div[data-pagelet='Stories']",
+        "div[data-pagelet='VideoChatHomeUnit']",
+        "div[role='complementary']",
+        "[aria-label='Watch']",
+        "[aria-label='Gaming']",
+        "[aria-label='Marketplace']",
+        "div[class*='x1lliihq'][class*='xhk9q7s']"
+    ],
+    "disableAutoplay": true,
+    "delayOpenMs": 3000,
+    "grayscale": false,
+    "blurThumbnails": false,
+    "blurSelectors": [
+        "video",
+        "div[data-pagelet='Stories'] img",
+        "a[href*='/reel/'] img"
+    ]
+}
